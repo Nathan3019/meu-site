@@ -1,0 +1,66 @@
+.h2{
+    box-shadow: 0px 0px 5px 5px white;
+    ;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    animation: animation 1s infinite;
+    text-align: center;
+    border-radius: 4px;
+    animation: animation 2s infinite ;
+}
+
+@keyframes animation {
+    12%{
+       box-shadow: 0px 0px 5px 5px  rgb(255, 0, 0)
+    }
+}
+
+.h3{
+    color:rgb(228, 228, 228);
+}
+
+.field1{
+
+border-color: rgb(255, 255, 255);
+height: 573px;
+    margin-top:33px;
+    background-image: url(https://i.ibb.co/pfqPdff/IMG-20231121-WA0008.jpg);
+    background-size: 843px;
+    background-position: -90px;
+    border-radius: 13px;
+    animation: fieldanima 2s infinite;
+}
+
+@keyframes fieldanima {
+    12%{
+       box-shadow: 0px 0px 83px  rgb(255, 0, 0);
+    }
+}
+
+
+.btn{
+    background-color: black;
+    color: brown;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn:hover{
+    background-color: aliceblue;
+    color:black;
+}
+.div{
+    text-align: center;
+    color: aliceblue;
+}
+.field2{
+border-radius: 23px;
+border-color:  rgb(0, 132, 255);
+animation: fieldanima 2s infinite;
+  
+}
+
+@keyframes fieldanima {
+    12%{
+       box-shadow: 0px 0px 83px  rgb(255, 0, 0);
+    }
+}
